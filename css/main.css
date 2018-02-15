@@ -1,0 +1,415 @@
+html,
+body,
+#cover{
+    height: 100%;
+    width: 100;
+}
+
+#cover{
+    background: url('../images/breaking-bad-wallpaper-16.jpg') no-repeat center center fixed;
+    width: 100%;
+    background-size: cover;
+    -wepkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.fixed-top{
+    max-width: 100%;
+    margin: 20px auto;
+    transition: 0.2s all linear;
+}
+h1{
+	margin-top:15%;
+    float: left;
+    padding-left: 85px;
+    font-size: 85px;
+    font-family: 'Droid Serif', serif;
+    
+}
+button{
+    margin-top:1%;
+    padding-left: 0px
+}
+.btn-danger{
+    background-color: #3A6538;
+    border-style: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.btn-danger:hover{
+    background-color: #ffffff;
+    color: #D59C2B
+}
+a.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white !important;
+    transition: color 0.5s ease;
+}
+a.nav-link:hover{
+    color: #3A6538 !important;
+}
+#abaut{
+    padding: 150px 0;
+}
+.about-top h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.abaut-content p{
+    font-family: 'Droid Serrif',serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+}
+#oyuncular{
+    background-color: #d9d9d9;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background: url('../images/31252-walter-white-breaking-bad-1366x768-tv-show-wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -wepkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.oyuncular-top h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.oyuncular-top p{
+    font-family: 'Droid Serrif',serif;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 70px;
+}
+.card{
+    border-style: none;
+}
+.oyuncular-content .row{
+    margin-bottom: 30px;
+}
+.oyuncular-content .card-title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+#bilinmeyenler{
+    background: url('../images/middle-wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -wepkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.bilinmeyenler-top h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.bilinmeyenler-top p{
+    font-family: 'Droid Serrif',serif;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 70px;
+    }
+.bilinmeyenler-content .row{
+    margin-bottom: 90px;
+}
+.bilinmeyenler-content h4{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.bilinmeyenler-content p{
+    font-family: 'Roboto Slab',serif;
+    font-size: 20px;
+    color: white;
+}
+.bilinmeyenler-content{
+    position: relative;
+}
+.bilinmeyenler-content:before{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 4px;
+    background-color: white;
+    left: 50%;
+    margin-left: -2px;
+}
+.bilinmeyenler-content img{
+    border-radius: 198px;
+    border: 8px solid #f1f1f1;
+}
+.abaut-circle{
+    position: relative;
+    text-align: center
+}
+.abaut-circle:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 185px;
+    height: 185px;
+    background-color: #3A6538;
+    border: 8px solid #f1f1f1;
+    border-radius: 185px;
+    left: 50%;
+    margin-left: -96.5px;
+}
+.abaut-circle .yellow-text{
+    position: relative;
+    z-index: 1;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fed136
+}
+.new-button{
+    position: absolute;
+    z-index: 1;
+    padding-top: 0;
+    left: 50%;
+    margin-left: -32px;
+    top: 130px;
+    color: #fed136
+}
+#team{
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background-color: #f9f9f9;
+}
+.team-top h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;   
+}   
+.team-content .row{
+    text-align: center;
+    padding-top: 30px;
+}
+.team-circle{
+    margin-bottom: 20px;
+}
+.team-content h4{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.team-content h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777;
+}
+.social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icon{
+    display:inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.team-content p{
+    margin: 50px auto;
+    font-family: 'Roboto Slab',serif;
+    font-size: 16px;
+    color: #777;
+}
+#contact{
+    background: url('../images/end-wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -wepkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    padding:120px 0;
+}
+.contact-top h3{
+    font-family: 'Droid Serif',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3A6538;
+}
+.contact-top p{
+    font-family: 'Droid Serif',serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #3A6538;
+    margin-bottom: 70px;
+}
+#name, #email, #subject{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+textarea{
+    width: 90%;
+    height: 203px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-left: 5%;
+}
+.bad-form-element{
+    font-family: 'Droid Serif',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3A6538;
+}
+#footer{
+    padding: 20px 0;
+}
+#footer p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 40px;  
+}
+.company-social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.company-social-icon{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    
+}
+.fixed-top.change-fix-top{
+    margin-top: 0;
+    background: #3A6538;
+    max-width: 2000px;
+}   
+
+/* Media Queries */
+
+@media (max-width:1199px){
+    .oyuncular-content img{
+        height: 280px;
+        width: 290px;
+    }
+
+@media (max-width: 991px){
+    .oyuncular-content img{
+        height: 280px;
+        width: 210px;    
+    }
+    .team-circle img{
+        height: 150px;
+        width: 150px
+    }
+    .footer-content img{
+        height: 24px;
+        width: 24px;
+    }
+    #footer img{
+        height: 24px;
+        width: 24px
+    }
+    #footer p{
+        font-size: 10px;
+    }
+    
+
+@media (max-width: 767px){
+    .row text-center h1{
+        font-size: 100px;
+    }
+    .danger{
+        font-size: 65px;
+        color: white;
+    }
+    .oyuncular-content img{
+        height: 185px;
+        width: 150px;
+    }
+    .bilinmeyenler-content:before{
+        width: 0px;
+    }
+    .bilinmeyenler-content p{
+        font-size: 15px;
+    } 
+    .bilinmeyenler-content h4{
+        font-size: 25px;
+    }.bilinmeyenler-content img{
+    border-radius: 198px;
+    border: 0px
+    }
+    .team-circle img{
+        height: 110px;
+        width: 110px
+    }
+    #team h3{
+        font-size: 35px;
+    }
+    #footer img{
+        height: 20px;
+        width: 20px
+    }
+    #footer p{
+        font-size: 8px;
+    }
+    
+    }
+
+@media (max-width: 575px){
+    .danger{
+        font-size: 40px;
+        color: white;
+    }
+    .danger img{
+        height: 50px;
+        width: 40
+    }
+    .about-content{
+        padding-top: 50px;
+    }
+    .item-circle{
+        padding-top: 50px
+    }
+    .card{
+        height: 475px;
+        width: 300px;
+        position:static
+        
+    }
+    .oyuncular-content img{
+        height: 350px;
+        width: 300px;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
